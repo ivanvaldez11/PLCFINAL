@@ -1,0 +1,15 @@
+class Token {
+  int [a-zA-z_] [a-zA-Z0-9_]*;
+  String [a-zA-Z_] [a-zA-Z0-9_]*;
+}
+    class Complier{
+      Complier (File input){
+        Lexer lex= Lexer();
+        Parser parse = Parser();
+      }
+    }
+class Lexer{
+  Lexer{string input} {
+    
+  }
+}
